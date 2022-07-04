@@ -1,7 +1,7 @@
 # School District Analysis
 
-## Overview of Project
-Create a detailed report for the school board regarding math and reading scores based on grade, school spending, school size, and school type. Furthermore, there is suspicion of academic dishonesty for the reading and match scores from Thomas High School ninth graders. Create the same report of reading and math scores, but remove math and reading scores from Thomas High School 9th graders, then determine how the two reports difer if at all.
+## Overview of the Project
+Create a detailed report for the school board regarding math and reading scores based on grade, school spending, school size, and school type. Furthermore, there is suspicion of academic dishonesty for the reading and math scores from Thomas High School ninth graders. I will create the same report, but remove math and reading scores from Thomas High School 9th graders, then determine how the two reports differ if at all.
 
 ## Resources
 - Data sources: [schools_complete.csv](/Resources/schools_complete.csv) and [students_complete.csv](/Resources/students_complete.csv)
@@ -19,7 +19,7 @@ Below are charts of summary data from the district. The top chart has ninth grad
 > District Summary Changed
 
 - Summary of Changes:
-    - Average Math Score: 79.0 &rarr; <span style="color: red;">78.9</span>
+    - Average Math Score: 79.0 &rarr; 78.9
     - % Passing Math: 75.0 &rarr; 74.8
     - % Passing Reading: 85.8 &rarr; 85.7
     - % Overall Passing: 65.2 &rarr; 64.9
@@ -41,7 +41,7 @@ The only changes that occur in school summary are for Thomas High School as that
     - % Overall Passing: 90.95 &rarr; 90.63
 
 ### Top Performing Schools
-As noted in the school summary, we see a very minor change in Thomas High School's performance relative to other schools when we remove the ninth grader data. Due to this, we actually see no change in Thomas High School's % Overall Performance compared to other schools. It still ranks 2nd with 90.63 overall passing percentage. However, it is much closer in performance to Griffin.
+As noted in the school summary, we see a very minor change in Thomas High School's performance relative to other schools when we remove the ninth grader data. Due to this, we actually see no change in Thomas High School's % Overall Performance compared to other schools. It still ranks 2nd with 90.63% overall passing percentage. However, it is much closer in performance to Griffin High School.
 
 ![](/Resources/top_schools_original.PNG) 
 > Top Performing Schools Unchanged
@@ -54,7 +54,7 @@ As noted in the school summary, we see a very minor change in Thomas High School
     - Amount ahead of Griffin: 0.35 &rarr; 0.03
 
 ### By Grade
-When viewing the two charts below, we see that the reading and math scores for ninth graders at Thomas High School have in fact been removed. Nothing else has changed, so there is no other change. It is important looking at the Math and Reading Scores Unchanged charts as we can see how similar Thomas High School average ninth grade scores were to tenth through twelfth grade. This shows removing the ninth grade data has little impact on the overall analysis.
+When viewing the two charts below, we see that the reading and math scores for ninth graders at Thomas High School have in fact been removed. Nothing else has changed, so there is no other change. It is important looking at the *Math and Reading Scores Unchanged* charts as we can see how similar Thomas High School average ninth grade scores were to tenth through twelfth grade. This shows removing the ninth grade data has little impact on the overall analysis.
 
 ![](/Resources/math_scores_by_grade_original.PNG) ![](/Resources/math_scores_by_grade_updated.PNG)
 > Math Scores by Grade Unchanged and Math Scores by Grade Changed
@@ -66,7 +66,7 @@ When viewing the two charts below, we see that the reading and math scores for n
     - Reading and Math Scores for Thomas High School ninth graders are now `NaN`
 
 ### By School Spending, School Size, and School Type
-I included only one chart for grouping by school spending, school size, and school type as the charts for changed and unchanged are identical if you round to the nearest whole percent. Thomas High School was in the $631 - 645 bin for school spending, Medium in school size, and a charter school. Thus, these are the only rows that are affected when altering Thomas High School math and reading data. Since this summary data includes more schools than just Thomas High School with each category, the change in math and reading score data is much smaller.
+I included only one chart for grouping by school spending, school size, and school type as the charts for changed and unchanged are identical if you use two significant digits for the percentages and three for the averages. Thomas High School was in the $631 - 645 bin for school spending, medium in school size, and a charter school. Thus, these are the only rows that are affected when altering Thomas High School math and reading data. Since this summary data includes more schools than just Thomas High School with each category, the change in math and reading score data is much smaller and therfore we see no significant change.
 
 ![](/Resources/spending_summary.PNG)
 > Performance by School Spending
