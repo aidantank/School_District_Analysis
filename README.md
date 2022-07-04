@@ -1,19 +1,25 @@
-# School_District_Analysis
+# School District Analysis
 
 ## Overview of Project
 Create a detailed report for the school board regarding math and reading scores based on grade, school spending, school size, and school type. Furthermore, there is suspicion of academic dishonesty for the reading and match scores from Thomas High School ninth graders. Create the same report of reading and math scores, but remove math and reading scores from Thomas High School 9th graders, then determine how the two reports difer if at all.
 
 ## Resources
-- Data source: [schools_complete.csv](/Resources/schools_complete.csv) and [students_complete.csv](/Resources/students_complete.csv)
+- Data sources: [schools_complete.csv](/Resources/schools_complete.csv) and [students_complete.csv](/Resources/students_complete.csv)
 - Software: Python 3.7.13, Jupyter Notebook 6.4.8, Anaconda 4.13.0
 
 ## Results
 
 ### District Summary
+Below are charts of summary data from the district. The top chart has ninth grade data from Thomas High School whereas the bottom one does not. There are minor changes in the reading and math scores. In all the categories, there is a very small decline or no change. This indicates that the data excluded from ninth graders at Thomas High School was a little higher than average, and thus the district summary data is lower when their data is not included.
+
 ![](/Resources/district_summary_original.PNG)
 > District Summary Unchanged
+
 ![](/Resources/district_summary_updated.PNG)
 > District Summary Changed
+
+- Changes:
+    - Average Math Score 79.0 &rarr 78.9
 
 ### School Summary
 ![](/Resources/school_summary_original.PNG) ![](/Resources/school_summary_updated.PNG)
@@ -22,6 +28,7 @@ Create a detailed report for the school board regarding math and reading scores 
 ### Top Performing Schools
 ![](/Resources/top_schools_original.PNG) 
 > Top Performing Schools Unchanged
+
 ![](/Resources/top_schools_updated.PNG)
 > Top Performing Schools Changed
 
