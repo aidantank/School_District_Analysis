@@ -19,7 +19,7 @@ Below are charts of summary data from the district. The top chart has ninth grad
 > District Summary Changed
 
 - Changes:
-    - Average Math Score 79.0 &rarr 78.9
+    - Average Math Score 79.0 &rarr; 78.9
 
 ### School Summary
 ![](/Resources/school_summary_original.PNG) ![](/Resources/school_summary_updated.PNG)
